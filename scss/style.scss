@@ -1,0 +1,63 @@
+@import "generales";
+@import "variables";
+@import "navegador";
+@import "footer";
+@import "portada";
+@import "extends";
+@import "mixins";
+@import "pbienvenida";
+@import "pfaciales";
+@import "servicios";
+@import "contacto";
+@import "formulario";
+@import "centro";
+@import "pmasajes";
+@import "pcorporales";
+@import "ppromo";
+@import "promo";
+
+main{
+    background-color: $bg-color;
+}
+.container-equipo {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .nEquipo {
+    
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 20px;
+  }
+
+  .equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .persona {
+    flex: 0 0 48%;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .persona img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  /* Estilos responsive */
+  
+  @media (max-width: 768px) {
+    .persona {
+      flex: 0 0 100%;
+    }
+  }

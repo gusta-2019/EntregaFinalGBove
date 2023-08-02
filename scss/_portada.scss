@@ -1,0 +1,50 @@
+.portada{
+    width: auto;
+    height: 600px;
+    background: url(../img/mujeresDivertidas/imagenInicio.jpg);
+    @extend %portadas;
+    .textoPortada{
+        h1{
+            padding-top: 170px;
+            padding-left: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align:start;
+            color: transparent;
+            letter-spacing: 2px;
+            font-weight: 700;
+            -webkit-text-stroke: $texto-disenio;
+        }
+        h2{
+            padding-left: 50px;
+            width: 250px;
+            margin-top: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+        h3{
+            padding-left: 50px;
+            padding-top: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: start;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    }
+}
+@media(max-width: 526px){
+    .textoPortada{ 
+        h1{
+            padding-left: 30px;
+        }
+        h2{
+            padding-left: 10px;
+        }
+        h3{
+            padding-left: 30px;
+        }
+    }
+}

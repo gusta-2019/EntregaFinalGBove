@@ -1,0 +1,7 @@
+@mixin imagen ($width, $height, $texto){
+    width: $width;
+    height: $height;
+    border-radius: 20px;
+    text-align: $texto;
+    box-shadow: $sombra;
+}

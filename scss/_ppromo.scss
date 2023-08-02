@@ -1,0 +1,29 @@
+.portadaPromociones{
+    width:auto;
+    height: 600px;
+    background-image: url(../img/inicio/promos.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    .titulo-principalp{
+        margin-top: 250px;
+        font-size: 45px;
+        margin-left: 250px;
+        color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 700;
+        -webkit-text-stroke: $texto-disenio;
+    }
+}
+@media (max-width:768px){
+    .portadaPromociones .titulo-principalp{
+        margin-left: 100px;
+    }
+}
+@media (max-width:320px){
+    .portadaPromociones .titulo-principalp{
+        margin-left: 40px;
+    }
+}

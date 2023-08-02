@@ -1,0 +1,19 @@
+.portadaCorporales{
+    width:auto;
+    height: 600px;
+    background-image: url(../img/faciales/corporales.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    h1{
+        margin-top: 250px;
+        font-size: 30px;
+        text-align: center;
+        color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 700;
+        -webkit-text-stroke: $texto-disenio;
+    }
+}
