@@ -17,7 +17,6 @@
     @media (max-width:639px){
         height: 950px;
     }
-
     @media(max-width:459px){  
          height: 1200px;   
     }
@@ -72,8 +71,6 @@
         @media(max-width:1209px){  
             padding:0px;
             margin-top: 150px;
-            
-            
         }
         @media (max-width:1139px){
             margin-top: 0px;
@@ -81,7 +78,6 @@
         @media (max-width:639px){
             margin-top: 20px;
         }
-           
     }
 }
 .mapa{
@@ -91,93 +87,8 @@
     iframe{
         width: 100%;
         padding: 30px;
-        
     }
     @media (max-width:1024px){
         width: 100%;
-        
     }
 }
-
-/*@media (max-width:1309px){
-    .form{
-        margin: 50px 50px 50px 50px;
-        justify-content: center;
-        .imgContacto{
-            padding: 30px 5px 5px 5px;
-            justify-content: center;
-            div{
-                width: 200px;
-                height: 200px;
-                margin-top: 130px;
-            }
-        }
-    }
-}
-@media (max-width:1209px){
-    .form{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 750px;
-        justify-items: center;
-        .imgContacto div{
-            width: 200px;
-            height: 100px;
-            margin-top: 10px;
-        }
-    }
-}
-@media(max-width: 400px){
-    .form{
-        margin: 30px 10px 50px 30px;
-        width: 470px;
-        height: 750px;
-        display: flex;
-        flex-wrap: wrap;
-        .imgContacto{
-            div{   
-            width: 150px;
-                img{
-                    width: 70px;
-                    height: 70px;
-                }
-                h2{
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-    .mapa iframe{
-        width: 450px;
-        height: 150px;
-    }
-}
-@media (max-width:425px){
-    .form{
-        margin: 5px 10px 50px 70px;
-        width: 300px;
-        height: 1200px;
-        display: flex;
-        flex-wrap: wrap;
-        .form-register{
-            margin: 10px 20px 10px 10px;
-        }
-        .imgContactodiv{
-            img{
-                width: 50px;
-                height: 50px;
-            }
-            h2{
-                font-size: 1px;
-            }
-            p{
-                font-size: 16px;
-            }
-        }
-            
-    }
-}*/

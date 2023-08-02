@@ -407,7 +407,7 @@ footer {
 }
 @media (max-width: 341px) {
   .servicios .container-facial {
-    grid-template-rows: 350px 1fr 370px 1fr 320px 1fr 250px 1fr;
+    grid-template-rows: 350px 1fr 370px 1fr 320px 1fr 280px 1fr;
   }
 }
 .servicios .container-facial .tarjetaFacial {
@@ -455,109 +455,38 @@ footer {
 .servicios .masajes {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 400px 400px;
+  grid-template-rows: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
 }
-
-/*@media (max-width:768px){
-
-        .tarjetaTexto p{
-            width: 650px;
-        }
-        .tarjetaTexto h2{
-            width: 650px;
-        }
-        .tarjetaFacial{
-            img{
-                height: 300px;
-                width: 600px;
-                margin-left: 60px;
-            }   
-        } 
-
-    }
-    .masajes{
-            height: 1800px;
-    }
-
-@media(max-width: 526px){
-    .servicios{
-        height: 2550px;
-        .container-facial{
-            grid-template-columns: 1fr;
-            grid-template-rows: 350px 300px 320px 300px 270px 290px 230px 300px;
-            .tarjetaFacial{
-                width: 50px;
-                text-align: center;
-                img{
-                    height: 250px;
-                    width: 400px;
-                    margin: 20px;
-                }
-            }
-            .tarjetaTexto p{
-                width: 400px;
-            }
-            .tarjetaTexto h2{
-                width: 400px;
-            }
-        } 
-    }
+@media (max-width: 858px) {
+  .servicios .masajes {
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 1fr 200px 1fr 200px 1fr;
+    row-gap: 0px;
+  }
 }
-@media(max-width: 526px){
-    .serviciosm{ 
-        height: 2000px;
-        .masajes{
-        grid-template-columns: 1fr;
-        grid-template-rows: 300px 300px 250px 300px 270px 290px;
-
-
-    }
+@media (max-width: 487px) {
+  .servicios .masajes {
+    grid-template-rows: 270px 1fr 220px 1fr 220px 1fr;
+  }
 }
+@media (max-width: 425px) {
+  .servicios .masajes {
+    grid-template-rows: 270px 1fr 250px 1fr 250px 1fr;
+  }
 }
-@media (max-width:320px){
-    .servicios{
-        height: 2300px;
-        .container-facial{
-            width: 300px;
-            grid-template-columns: 1fr;
-            grid-template-rows: 350px 200px 370px 200px 300px 180px 300px 300px;
-            .tarjetaFacial{
-                width: 50px;
-                text-align: center;
-                img{
-                    height: 150px;
-                    width: 250px;
-                    margin: 10px;
-                }
-            }
-            .tarjetaTexto{
-                width: 200px;
-                margin-left:5px;
-            }
-            .tarjetaTexto p{
-                width: 220px;
-                font-size: 16px;
-
-            }
-            .tarjetaTexto h2{
-                width: 200px;
-
-            }
-        } 
-    }
-
+@media (max-width: 341px) {
+  .servicios .masajes {
+    grid-template-rows: 320px 1fr 320px 1fr 320px 1fr;
+  }
 }
-@media(max-width: 320px){
-    .serviciosm{ 
-        height: 1900px;
-        .masajes{
-        grid-template-columns: 1fr;
-        grid-template-rows: 400px 200px 300px 200px 350px 290px;
-        }
-    }
-}*/
+@media (max-width: 320px) {
+  .servicios .masajes {
+    grid-template-rows: 360px 1fr 320px 1fr 320px 1fr;
+  }
+}
+
 .portadaContacto {
   width: 100%;
   height: 600px;
@@ -578,15 +507,6 @@ footer {
   -webkit-text-stroke: 2px rgb(6, 6, 6);
 }
 
-/*@media (max-width:320px){
-    .mapa iframe{
-        width: 300px;
-        height: 150px;
-    }
-    .portadaContacto div h1{
-        font-size: 35px;
-    }
-}*/
 .form {
   margin: 50px 50px 0px 150px;
   width: auto;
@@ -701,88 +621,6 @@ footer {
   }
 }
 
-/*@media (max-width:1309px){
-    .form{
-        margin: 50px 50px 50px 50px;
-        justify-content: center;
-        .imgContacto{
-            padding: 30px 5px 5px 5px;
-            justify-content: center;
-            div{
-                width: 200px;
-                height: 200px;
-                margin-top: 130px;
-            }
-        }
-    }
-}
-@media (max-width:1209px){
-    .form{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 750px;
-        justify-items: center;
-        .imgContacto div{
-            width: 200px;
-            height: 100px;
-            margin-top: 10px;
-        }
-    }
-}
-@media(max-width: 400px){
-    .form{
-        margin: 30px 10px 50px 30px;
-        width: 470px;
-        height: 750px;
-        display: flex;
-        flex-wrap: wrap;
-        .imgContacto{
-            div{   
-            width: 150px;
-                img{
-                    width: 70px;
-                    height: 70px;
-                }
-                h2{
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-    .mapa iframe{
-        width: 450px;
-        height: 150px;
-    }
-}
-@media (max-width:425px){
-    .form{
-        margin: 5px 10px 50px 70px;
-        width: 300px;
-        height: 1200px;
-        display: flex;
-        flex-wrap: wrap;
-        .form-register{
-            margin: 10px 20px 10px 10px;
-        }
-        .imgContactodiv{
-            img{
-                width: 50px;
-                height: 50px;
-            }
-            h2{
-                font-size: 1px;
-            }
-            p{
-                font-size: 16px;
-            }
-        }
-
-    }
-}*/
 .portadaCentro {
   width: auto;
   height: 600px;
@@ -841,31 +679,6 @@ footer {
   padding: 10px;
 }
 
-/*@media(max-width: 526px){
-    .container-tnc{
-        flex-direction: column;
-        grid-template-rows: 370px 350px;
-        .logo2{
-            width: 150px;
-            height: 150px;
-        }
-        p{
-            font-size: 16px;
-        }
-    }
-}
-@media(max-width: 1275px){
-    #carouselExampleIndicators{
-        margin-top: 30px;
-        width: 100%;
-        height: 300px;
-    }
-}
-@media(max-width: 1275px){
-    #carouselExampleIndicators{
-        margin-top: 30px;
-    }
-}*/
 .portadaMasajes {
   width: auto;
   height: 600px;
@@ -989,6 +802,7 @@ main {
 }
 
 .container-equipo {
+  margin-top: 550px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -1021,7 +835,6 @@ main {
   margin-bottom: 15px;
 }
 
-/* Estilos responsive */
 @media (max-width: 768px) {
   .persona {
     flex: 0 0 100%;
