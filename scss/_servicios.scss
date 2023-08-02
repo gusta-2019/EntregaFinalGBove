@@ -1,49 +1,48 @@
 .servicios{
     background-color: $bg-color;
-    @media (max-width:768px){
-        width: 100%;
-        height: 2550px; 
-    }
     .container-facial{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         column-gap: 10px;
         row-gap: 10px;
-        
-        @media(max-width: 1048px){
-            width: 400px;
-            padding-bottom: 30px;
-        }
-        @media (max-width:768px){
-            
+        @media (max-width:858px){
             grid-template-columns: 1fr;
-            grid-template-rows: 250px 350px 270px 330px 280px 330px 190px 270px;
+            grid-template-rows: 250px 1fr 250px 1fr 250px 1fr 200px 1fr;
+            row-gap: 0px;
+        }
+        @media (max-width:467px){
+            grid-template-rows: 300px 1fr 300px 1fr 250px 1fr 200px 1fr;
+        }
+        @media (max-width:383px){
+            grid-template-rows: 330px 1fr 340px 1fr 280px 1fr 220px 1fr;
+        }
+        @media (max-width:341px){
+            grid-template-rows: 350px 1fr 370px 1fr 320px 1fr 250px 1fr;
         }
         .tarjetaFacial{
             padding: 10px 30px;
-            @media (max-width:768px){
-                text-align: center;
-            }
+            
             img{
                 @include imagen(550px,330px,center);
-                @media (max-width:768px){
-                    height: 300px;
-                    width: 600px;
+                @media (max-width:1018px){
+                    width: 100%;
+                    height: 70%;
+                    object-fit: cover;
                 }
+                
             }
         }
         .tarjetaTexto{
             padding: 10px 50px;
             font-size: 20px;
             text-align: justify;
-            @media(max-width: 1048px){
-                width: 400px;
-                p{
-                    font-size: 20px;
-                }
+            @media (max-width:858px){
+                font-size: 18px;
             }
-            
+            @media (max-width:568px){
+                font-size: 16px;
+            }
             h2{
                 padding-bottom: 10px;
                 text-align: center;
@@ -64,7 +63,7 @@
         row-gap: 10px;
     }
 }
-@media (max-width:768px){
+/*@media (max-width:768px){
      
         .tarjetaTexto p{
             width: 650px;
@@ -161,4 +160,4 @@
         grid-template-rows: 400px 200px 300px 200px 350px 290px;
         }
     }
-}
+}*/
