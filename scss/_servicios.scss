@@ -20,6 +20,9 @@
         @media (max-width:341px){
             grid-template-rows: 350px 1fr 370px 1fr 320px 1fr 280px 1fr;
         }
+        @media (max-width:326px){
+            grid-template-rows: 380px 1fr 390px 1fr 330px 1fr 290px 1fr;
+        }
         .tarjetaFacial{
             padding: 10px 30px;
             img{
@@ -73,7 +76,7 @@
         @media (max-width:341px){
             grid-template-rows: 320px 1fr 320px 1fr 320px 1fr;
         }
-        @media (max-width:320px){
+        @media (max-width:334px){
             grid-template-rows: 360px 1fr 320px 1fr 320px 1fr;
         }
     }

@@ -410,6 +410,11 @@ footer {
     grid-template-rows: 350px 1fr 370px 1fr 320px 1fr 280px 1fr;
   }
 }
+@media (max-width: 326px) {
+  .servicios .container-facial {
+    grid-template-rows: 380px 1fr 390px 1fr 330px 1fr 290px 1fr;
+  }
+}
 .servicios .container-facial .tarjetaFacial {
   padding: 10px 30px;
 }
@@ -481,7 +486,7 @@ footer {
     grid-template-rows: 320px 1fr 320px 1fr 320px 1fr;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 334px) {
   .servicios .masajes {
     grid-template-rows: 360px 1fr 320px 1fr 320px 1fr;
   }
